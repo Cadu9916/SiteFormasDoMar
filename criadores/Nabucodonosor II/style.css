@@ -1,0 +1,175 @@
+body {
+    background-color: #020110;
+    color: #e6f5f7;
+    margin: 0;
+    height: 100%;
+
+    font-family: 'Pixelify Sans';
+}
+
+h1, h2, h3 {
+    margin-left: 10px;
+}
+
+p {
+    margin-left: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #334555;
+}
+
+a:visited {
+    color: #830034;
+  }
+
+/* HEADER */
+
+nav {
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    background-color: #e6f5f7;
+    height: 100px;
+    gap: 0px;
+}
+
+nav img {    
+    width: 68px;
+    border: solid #020110;
+    padding: 3px;
+}
+
+nav h1 {
+    margin: 0;
+    padding-top: 22px;  
+}
+
+nav h3 {
+    margin: 0;
+}
+
+/* CONTENT */
+
+.content {
+    display: flex;
+}
+
+/* ASIDE */
+
+aside {
+    display: flex;
+    flex-direction: column;
+    
+    width: 250px;
+    border-right: 2px dashed;
+}
+
+
+ 
+aside img {
+    vertical-align: middle;
+    margin-right: 10px;
+    padding-left: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+aside p {
+    font-size: 11px;
+}
+
+aside ul {
+    font-size: 14px;
+    margin-left: -7px;
+}
+
+/* SECTION */
+
+section {
+    display: none;
+    flex-grow: 1; /* Preenche o espaço restante */
+    margin-left: 15px;
+    min-height: 1200px;
+}
+
+
+section button {
+    padding: 10px 40px;
+    background-color: #e6f5f7;
+    border: #334555;
+    margin: 15px;
+
+    font-family: 'Pixelify Sans';
+}
+
+section button:hover {
+    background-color: #334555;
+    
+}
+
+#contato img {
+    vertical-align: middle;
+    margin: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+article a {
+    color: #d8e8ea;
+    font-style: italic;
+}
+
+
+article hr {
+    margin-left: 5px;
+    width: 400px;
+    margin-top: -16px;
+    border: 1px solid #e6f5f7;
+}
+
+article ul {
+    list-style: square;
+}
+
+article img {
+    height: 16px
+}
+
+.presentation {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.presentation img {
+    padding: 5px;
+    height: 200px;
+    margin: 20px;
+
+    border: 3px solid #e6f5f7;
+    border-radius: 5px;
+}
+
+/* CELULAR */
+
+@media (max-width: 1000px) {
+    aside {
+        display: none;
+    }
+    
+    section {
+        margin-left: 0;
+        flex-grow: 1;
+    }
+
+    .presentation img {
+        flex-wrap: wrap;
+        width: 50%;
+        height: auto;
+    }
+}

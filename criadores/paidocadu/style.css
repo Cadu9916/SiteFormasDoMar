@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=New+Amsterdam&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=swap');
+
+h1 {
+    font-family:'Calibri'; 
+}
+
+h2 {
+    font-family: 'Calibri';
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+a:link{
+    color: pink
+}
+
+a:visited{
+    color: rgb(141, 29, 48);
+}
+
+body{
+    background-color: rgb(8, 11, 63);
+    font-family: 'Lato', sans-serif;
+}
+
+.coreano{
+    font-family: 'Noto Sans Korean', sans-serif;
+    font-size: 6px;
+}
+
+.container_inicio {
+    width: auto; /* Define a largura do container */
+    margin: 1 auto; /* Centraliza o container horizontalmente na página */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    background-color: white; /* Define uma cor de fundo para o container */
+    border: 3px solid #ddd; /* Adiciona uma borda ao redor do container */
+    border-radius: 10px; /* Adiciona cantos arredondados à borda do container */
+    align-content: center;
+}
+
+.container {
+    width: 1500px;
+    max-width: fit-content;
+    margin: 0 auto; /* Centraliza o container horizontalmente na página */
+    padding: 20px; /* Adiciona espaço interno ao redor do conteúdo */
+    background-color: white; /* Define uma cor de fundo para o container */
+    border: 3px solid #ddd; /* Adiciona uma borda ao redor do container */
+    border-radius: 20px; /* Adiciona cantos arredondados à borda do container */
+    align-content: center;
+}
+
+.fxpreta{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+}
+
+.img{   /* Garante que a imagem não exceda o tamanho do container */
+    max-width: 100%;
+    width: 230px;
+    height: 230px;       /* Mantém a proporção da imagem */
+    border-radius: 20px;
+    align-content: center;
+    float: right;
+    vertical-align: top;
+}
+
+.titulo{
+    font-size: 80;
+}
+
+.centro{
+    align-content: center;
+}

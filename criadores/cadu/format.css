@@ -1,0 +1,141 @@
+*{
+    padding:0
+}
+body{
+    font-family: "Gill Sans", sans-serif;    
+    background-color: #2E2E33;
+    padding: 5% 23% 5% 23%;
+}
+a,h1,h2,h3,h4,p{
+    color: #ffffff;
+}
+p{
+    margin: 0;
+    margin-top: 8px;
+    margin-bottom: 8px;
+
+
+}
+.cabecalho{
+    border: 1px solid;
+    border-radius: 25px;
+    border-color:#2e2d3e;
+    width: auto;
+    padding: 2px 0 0 20px; 
+}
+table, th, td {
+    border:1px solid #2e2d3e;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    ;
+  }
+img{
+    border-radius: 10px;
+    height: 400px;
+    padding: 5px 5px 5px 5px;
+}
+span{
+    border: 1px solid;
+    border:1px solid #2e2d3e;
+    border-radius: 5px;
+    padding: 0px 1% 0px 1%;
+}
+main{
+    border: 1px solid;
+    border-radius: 25px;
+    border-color:#2e2d3e;
+    width: auto;
+    padding: 2px 0 0 20px; 
+}
+.containerTituloCabecalho{
+    border-radius: 15px;
+    border-color: #38374B;
+    background-repeat: no-repeat;
+    background-color: #1711F5;
+    margin-right: 10px;
+    text-align: center;
+}
+.configImagemContatos{
+    width : 30px;
+    height : 30px;
+    border: 1px solid;
+    border-color: #38374B;
+    border-radius: 10px;
+    margin-bottom: 0;
+    padding: 0px 0px 0px 0px;
+}
+.linkContato{
+    font-size: 36px;
+    margin: 0px;
+}
+.containerBack{
+    background-color: #454375;
+    border: 1px solid;
+    border-radius: 25px;
+    border-color: #38374B;
+
+}
+.centralizar {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.containerInter{
+    padding: 10px;
+}
+.listaContatos{
+    list-style-type: none;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 0;
+    
+}
+.containerTituloCorpo1{
+    margin: 0;
+    border-radius: 10px;
+    border-color: #38374B;
+    background-repeat: no-repeat;
+    background-color: #1711F5;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+.containerTituloCorpo2{
+    
+    border-radius: 7px;
+    border-color: #38374B;
+    background-repeat: no-repeat;
+    background-color: #1711F5;
+    margin-right: 10px;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    display: unset;
+    padding: 2px;
+}
+.containerimg{
+    display:flex; 
+    flex-direction: row;
+}
+.textoCorpo{
+    text-align: left;
+    display: unset;
+    margin-bottom: 10px;
+}
+.containerTextoImg{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.containerTextoImgTitulo{
+    justify-content: center;
+}
+.containerTextoImgCorpo{
+    display: flex;
+    justify-content: center;
+}

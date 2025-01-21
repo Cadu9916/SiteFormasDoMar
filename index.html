@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="script.css">
+    <script src="script.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    
+    <audio autoplay loop hidden
+        id="audioFundo">
+        <source 
+            src="assets/somPraiaFundo.mp3" 
+            type="audio/mpeg">
+        <source 
+            src="assets/somPraiaFundo.ogg" 
+            type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+    
+    <script src="src/ajusteAudio.js"></script>
+
+    <!--INTERFACE DE NAVEGAÇÃO-->
+    <header class="head">
+        <nav>
+            <h1 class="white">PROJETO C#</h1>
+                <a href="https://unisanta.br">
+                    <img 
+                    src="/assets/logoUnisantaSemNome.png" 
+                    alt="logoUnisantaSemNome"
+                    width="60px">
+                </a>
+                
+            </div>
+            <div class="">
+                <a>Home</a>
+                <a href="index2.html">About</a>
+                <a href="https://github.com/the7677/LibinhoPlay-Jogo">Download</a>
+            </div>
+        </nav>
+    </header>
+
+    <!--INTRODUÇÃO AO SITE-->
+    <div class="primeira-div">
+        <div class="intro">
+            <div class="divImagemGrande">
+                <img src="assets/teste12333.png" alt="Logo Grande">    
+            </div>
+            <p class="principalTexto">
+                Incentivando o desenvolvimento e aprendizado infantil    
+            </p>
+            <button class="botaoBaixarJogo" onclick="window.location.href='https://github.com/the7677/LibinhoPlay-Jogo';"> Jogar Agora </button>
+        </div>
+    </div>
+    <hr class="arredondado">
+    <!--DECORRER DA APRESENTAÇÃO-->
+    <div class="segunda-div">
+        <div class="intro">
+            <h1 class="tituloParte2"> Sobre o Jogo</h1>
+            <hr class="posTitulo">
+            <div class="alinhamentoImagemTexto">
+                <img src="assets/videoJogo.gif" alt="GIF do jogo" style="width:50%; height:auto;">
+                <section class="textoExplicativo">
+                    <p>Este jogo é uma divertida atividade desenvolvida especialmente para crianças da pré-escola, com o objetivo de estimular o aprendizado de forma lúdica e interativa. Nele, as crianças são incentivadas a identificar e contar diferentes formas, como quadrados, triângulos, retângulos e círculos, presentes em imagens coloridas e atrativas. À medida que exploram o jogo, elas aprendem a reconhecer as características de cada forma, desenvolvendo habilidades cognitivas e de percepção visual. Além disso, o jogo promove a familiarização com conceitos básicos de geometria, preparando os pequenos para futuros desafios acadêmicos. O design intuitivo permite que os educadores acompanhem o progresso das crianças, reforçando o aprendizado de maneira prática e divertida. Ao contarem as formas corretamente, os participantes recebem incentivos visuais e sonoros, aumentando a motivação. Assim, o jogo não só facilita o ensino das formas geométricas, mas também trabalha a concentração, a memória e a capacidade de resolver problemas de maneira independente, sendo uma excelente ferramenta pedagógica.</p>
+                </section>
+            </div>
+        </div>
+    </div>
+        <hr class="arredondado">
+        <!--CARTÕES COM DADOS-->
+        <div class="terceira-div">
+            <h1 class="tituloParte3">Features</h1>
+            <hr class="posTitulo">
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <img src="assets/teacher.png" 
+                        alt=""
+                        width = "50%"
+                        height= "50%">
+                        <h3>11+</h3>
+                        <p>Aprovações de professores</p>
+                    </div>
+                    </div>
+                
+                    <div class="column">
+                    <div class="card">
+                        <img src="assets/maps.png" 
+                        alt=""
+                        width = "50%"
+                        height= "50%">
+                        <h3>3+</h3>
+                        <p>Mapas Unicos</p>
+                    </div>
+                    </div>
+                    
+                    <div class="column">
+                    <div class="card">
+                        <img 
+                        src="assets/baby.png" 
+                        alt=""
+                        width = "50%"
+                        height= "50%">
+                        <h3>15+</h3>
+                        <p>Clientes Felizes</p>
+                    </div>
+                    </div>
+                    
+                    <div class="column">
+                    <div class="card">
+                        <img src="assets/timer.png" 
+                        alt=""
+                        width = "50%"
+                        height= "50%">
+                        <h3>2+</h3>
+                        <p>Meses de preparação</p>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="comment">
+            <p class="comentariosAbaixo">Algumas opiniões de usuários que aproveitaram do jogo</p>
+
+            <div class="comentariosComNota">
+                <h1 class="tituloParte2"></h1>
+                <div class="slideContainer">
+
+                    <div class="slides">
+                      <q>Um dos melhores jogos que eu já utilizei com meus paciêntes.</q>
+                      <br>
+                      <q>9/10</q>
+                      <p class="autor">- Lucas de Macedo Vieira (Psicologo Comportamental)</p>
+                    </div>
+                    
+                    <div class="slides">
+                      <q>Meu filho amou!</q>
+                      <br>
+                      <q>10/10</q>
+                      <p class="autor">- Raquel Galhardo(Professora de Engenharia de Computação)</p>
+                    </div>
+                    
+                    <div class="slides">
+                      <q>Nunca vi algo feito com tanto carinho e cuidado com as crianças.</q>
+                      <br>
+                      <q>9/10</q>
+                      <p class="autor">- Roberta Henriques(Advogada e Pedagoga)</p>
+                    </div>
+                    
+                    <a class="prev" onclick="somaSlides(-1)"><</a>
+                    <a class="next" onclick="somaSlides(1)">></a>
+                    
+                    </div>
+                    
+                    <div class="dot-container">
+                      <span class="dot" onclick="slideAtual(1)"></span> 
+                      <span class="dot" onclick="slideAtual(2)"></span> 
+                      <span class="dot" onclick="slideAtual(3)"></span> 
+                    </div>
+                    
+            </div>
+        </div>
+        <hr class="arredondado">
+    </div>
+</body>
+<script src="src/listaComentarios.js"></script>
+</html>

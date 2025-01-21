@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <!-- Mudar contato para "sobre mim", colocar home em sobre mim e mudar a home para uma página mais agradável -->
+    
+    <!-- Arquivos -->
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    
+    <!-- Fontes -->
+    <link href='http://fonts.googleapis.com/css?family=Pixelify+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tiny5' rel='stylesheet' type='text/css'>
+    
+    <style>
+        
+    </style>
+</head>
+
+<body>
+    <nav style="display: flex">
+        <div style="width: 125px; height: 100%; display: flex; justify-content: center; align-items: center;">
+            <img src="images/jirachi.png" title="Home" onclick="homeShow()"/>
+        </div>
+        
+        <div style="margin-left: 0px;">
+            <h1 style="color: #020110;"> <a onclick="homeShow()"> PEDRO BRITO </a> </h1>
+            <h3 style="color: #020110;">  <a onclick="projetosShow()"> Desenvolvedor de Jogos </a> </h3>
+        </div>
+        
+        <div class="horizontalbar"></div>
+    </nav>
+    
+    <div class="content">
+        <aside>
+            <div style="text-align: center; flex-direction: column;">
+                <br/>
+                <a onclick="homeShow()"> <h2 style="margin-left: 0px; margin-bottom: 0px;"> Home </h2> </a>
+                <a onclick="projetosShow()"> <h2 style="margin-left: 0px; margin-bottom: 0px;"> Projetos </h2> </a>
+                
+                <!-- <a> <h2 style="margin-left: 0px; margin-bottom: 0px;"> Galeria (WIP) </h2> </a> -->
+                
+                <a onclick="contatoShow()"> <h2 style="margin-left: 0px; margin-bottom: 0px;"> Contato </h2> </a>
+            </div>
+            
+            <hr style="height: 100%; color: transparent"/>
+            
+            <footer>
+                <img src="images/megaloschemos.png" style="width: 230px; height: 400px;">
+                <h2 style="margin-left: 0px; text-align: center"> Contato </h2>
+                <p>
+                    <img src="images/email.png"/>
+                    pedro.brito.7677@gmail.com <br/>
+                    
+                    <img src="images/telephone.png"/>
+                    Telefone: +299 (13) xxxx-xxxx <br/>
+                    
+                    <img src="images/instagram.png">
+                    <a href="https://www.instagram.com/evertonhernerbruchnermenezes/"> @pedro_brito </a>
+                </p>
+            </footer>
+        </aside>
+        
+        <section id="home">
+            <article>
+                <br/>
+                <h2> Objetivo Profissional <img src="images/goal.png"/> </h2>
+                <hr/>
+                <p> Desenvolver projetos de jogos para Desktop e dispositivos móveis com o intuito de educar através do entretenimento. </p>
+            </article>
+            
+            <article>
+                <br/>
+                <h2> Formação Acadêmica <img src="images/scroll.png"/> </h2>
+                <hr/>
+                <ol type="I">
+                    <li> Cursando <b> Engenharia de Computação</b>, Bacharelado (<em style="color: #0cbba0">UNISANTA</em>) </li>
+                    <li> Cursando <b> Análise e Desenvolvimento de Sistemas</b>, Tecnólogo (<em style="color: #0cbba0">FATEC-RL</em>) </li>
+                </ol>
+            </article>
+            
+            <article>
+                <br/>
+                <h2> Experiência Profissional <img src="images/work.png"/> </h2> 
+                <hr/>
+                <ul>
+                    <li> Gerenciamento de site de Loja Virtual </li>
+                </ul>
+            </article>
+            
+            <article>
+                <br/>
+                <h2> Habilidades <img src="images/langs.png"/> </h2>
+                <hr/>
+                <ul>
+                    <li> Linguagens de Programação </li>
+                    <ul>
+                        <li> ODIN (1 ano de experiência) </li>
+                        <ul>
+                            <li> Raylib </li>
+                            <li> SDL2 </li>
+                        </ul>
+                        <li> PYTHON (4 anos de aprendizado) </li>
+                        <ul>
+                            <li> Pygame </li>
+                        </ul>
+                        <li> C (2 anos de aprendizado) </li>
+                        <ul>
+                            <li> Raylib </li>
+                            <li> SDL2 </li>
+                            <li> Allegro </li>
+                        </ul>
+                        <li> <s> FORTRAN (25 anos de experiência) </s> </li>
+                        <li> HASKELL (6 meses de aprendizado) </li>
+                        <li> PASCAL (básico) </li>
+                        <li> C++, Golang, Clojure, Zig... </li>
+                    </ul>
+                    <li> Excel </li>
+                    <li> MS Word </li>
+                    <li> Fusion 360 </li>
+                    <li> KiCad </li>
+                    <li> Aseprite </li>
+                    <li> Tiled </li>
+                    <li> Idioma Inglês (Avançado) </li>
+                </ul>
+            </article>
+        </section>
+        
+        <section id="projetos">
+            <h2> Meus Projetos </h2>
+            <article>   
+                <br/>
+                <h2> Little Hungary <img src="images/controller.png"/> </h2>
+                <hr/>
+                <p> Um jogo sandbox de sobrevivência ambientado na Bacia da Panônia. </p>
+                
+                <button onclick="proj1Show()"> VISITAR </button>
+            </article>
+            
+            <article>
+                <br/>
+                <h2> Conducate <img src="images/controller.png"/> </h2>
+                <hr/>
+                <p> Inspirado em Cave Story, Conducate é um jogo de plataforma feito com SDL2. </p>
+                
+                <button onclick="proj2Show()"> VISITAR </button>
+            </article>
+        </section>
+        
+        <section id="proj1">
+            <article>
+                <button onclick="projetosShow()"> VOLTAR </button>
+                
+                <br/>
+                <h2> Little Hungary <img src="images/controller.png"/> </h2>
+                <hr/>
+                <p> Um jogo sandbox de sobrevivência ambientado na Bacia da Panônia. </p>
+                
+                <div class="presentation">
+                    <img src="images/magyarorszag.png" style="border: none;"/>
+                </div>
+                
+                <p>
+                    Little Hungary se passa na Hungria, com foco em plantação, coleta e construção.
+                    Ajude na reconstrução do Reino da Hungria expulsando os forasteiros romenos e
+                    coletando os recursos do ambiente.
+                </p>
+                
+                <div class="presentation">
+                    <img src="images/lh1.gif"/>
+                    <img src="images/lh2.png"/>
+                </div>
+                
+                <div class="presentation">
+                    <img src="images/lh3.gif" style="border: none;"/>
+                </div>
+            </article>
+
+            <article>
+                <h2> Info <img src="images/info.png"/> </h2>
+                <hr/>
+                
+                <p> Feito com <a href="https://www.pygame.org/wiki/about"> Pygame </a> na paleta Endesga-32.</p>
+                
+                <div class="presentation">
+                    <img src="images/endesga32.png" style="border: none; height: 100px;"/>
+                </div>
+                
+                <p> Status: Incompleto, não publicado (2023). </p>
+                <br/>
+            </article>
+        </section>
+        
+        <section id="proj2">
+            <article>
+                <button onclick="projetosShow()"> VOLTAR </button>
+                
+                <br/>
+                <h2> Conducate <img src="images/controller.png"/> </h2>
+                <hr/>
+                <p> Inspirado em Cave Story, Conducate é um jogo de plataforma feito com o lendário <a href="https://www.libsdl.org/"> SDL2 </a>. </p>
+
+                <div class="presentation">
+                    <img src="images/monster.png" style="border: none;"/>
+                    <img src="images/soldier.gif" style="border: none;"/>
+                </div>
+
+                <p>
+                    Conducate é um jogo de plataforma pseudo-metroidvania com profundidade em sua
+                    história. O jogo também conta com um sistema de customização de equipamentos.
+                    Feito apenas com 12 cores.
+                </p>
+
+                <div class="presentation">
+                    <img src="images/cdc1.gif"/>
+                    <img src="images/cdc2.png"/>
+                </div>
+            </article>
+
+            <article>
+                <h2> Info <img src="images/info.png"/> </h2>
+                <hr/>
+                
+                <p> Feito com <a href="https://www.libsdl.org/"> SDL2 </a> na paleta customizada Wonderland Garden.</p>
+                
+                <div class="presentation">
+                    <img src="images/wonderlandgarden.png" style="border: none; height: 50px;"/>
+                </div>
+                
+                <p> Status: Em desenvolvimento, repositório privado (2024). </p>
+                <br/>
+            </article>
+        </section>
+        
+        <section id="galeria"> EM BREVE </section>
+        
+        <section id="contato">
+            <p>
+                <img src="images/email.png"/>
+                pedro.brito.7677@gmail.com <br/>
+                
+                <img src="images/telephone.png"/>
+                Telefone: +299 (13) xxxx-xxxx <br/>
+                
+                <img src="images/instagram.png">
+                <a href="https://www.instagram.com/evertonhernerbruchnermenezes/"> @pedro_brito </a>
+            </p>
+        </section>
+        
+        <div style="width: 250px"></div>
+        
+    </div>
+</body>
+</html> 
